@@ -1,0 +1,58 @@
+.timeButton {
+  height: 4rem;
+  width: 15rem;
+  padding: 0 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 6px;
+
+  outline: none;
+  background: var(--blue-400);
+  color: var(--white);
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+
+  span {
+    font-size: 2rem;
+    line-height: 42px;
+    letter-spacing: 0.2em;
+  }
+
+
+
+}
+
+.agendado {
+  height: 4rem;
+  width: 15rem;
+  padding: 0 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(236, 236, 238, 0.4);
+  border-radius: 6px;
+  outline: none;
+
+  background: rgba(215, 218, 220, 0.6);
+  color: rgba(43, 60, 84, 0.32);
+  cursor: not-allowed;
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+
+  span {
+    font-size: 2rem;
+    line-height: 42px;
+    letter-spacing: 0.2em;
+  }
+
+}
